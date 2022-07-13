@@ -18,13 +18,13 @@ interface Figurable {
 public class Main {
     public static void main(String[] args) {
         System.out.println("Введи размер стороны квадрата, затем имя фигуры");
-        Quad quad = new Quad();
+        Figurable quad = new Quad();
         System.out.println(quad.toString());
         System.out.println("Введи размер у прямоугольника стороны 1, стороны 2, затем имя фигуры");
-        Rect rect = new Rect();
+        Figurable rect = new Rect();
         System.out.println(rect.toString());
         System.out.println("Введи размер стороны шестиугольника, затем имя фигуры");
-        Hex hex = new Hex();
+        Figurable hex = new Hex();
         System.out.println(hex.toString());
 
     }

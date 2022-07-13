@@ -26,6 +26,7 @@ public class Hex implements Figurable{
         return 0;
     }
 
+
     @Override
     public String print_name(String fname) {
         return fname;
