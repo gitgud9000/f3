@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
          Quad quad = new Quad(25, "squad-rat");
